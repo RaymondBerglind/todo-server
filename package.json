@@ -1,0 +1,22 @@
+{
+  "name": "todo-server",
+  "version": "1.0.0",
+  "description": "A server for users of the todo client app and their items.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaymondBerglind/todo-server.git"
+  },
+  "author": "Raymond Berglind",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RaymondBerglind/todo-server/issues"
+  },
+  "homepage": "https://github.com/RaymondBerglind/todo-server#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
