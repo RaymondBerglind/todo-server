@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "test": "mocha --recursive --watch \"**/test/*Spec.js\""
+    "test": "mocha --recursive \"**/test/*Spec.js\"",
+    "testLocal": "mocha --recursive --watch \"**/test/*Spec.js\""
   },
   "repository": {
     "type": "git",
